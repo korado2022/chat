@@ -1,0 +1,33 @@
+2023-05-31 20:53:31,469        CRITICAL     config_server_log.py      Критическая ошибка
+2023-05-31 20:53:31,469        ERROR        config_server_log.py      Ошибка
+2023-05-31 20:53:31,469        DEBUG        config_server_log.py      Отладочная информация
+2023-05-31 20:53:31,469        INFO         config_server_log.py      Информационное сообщение
+2023-05-31 20:53:34,585        CRITICAL     config_server_log.py      Критическая ошибка
+2023-05-31 20:53:34,585        ERROR        config_server_log.py      Ошибка
+2023-05-31 20:53:34,585        DEBUG        config_server_log.py      Отладочная информация
+2023-05-31 20:53:34,585        INFO         config_server_log.py      Информационное сообщение
+2023-05-31 20:53:37,251        CRITICAL     config_server_log.py      Критическая ошибка
+2023-05-31 20:53:37,251        ERROR        config_server_log.py      Ошибка
+2023-05-31 20:53:37,251        DEBUG        config_server_log.py      Отладочная информация
+2023-05-31 20:53:37,251        INFO         config_server_log.py      Информационное сообщение
+2023-05-31 21:37:04,096        INFO         server.py                 Запущен сервер, порт для подключений: 8079, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-05-31 21:37:04,353        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685558224.3533478, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,354        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685558224.3533478, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,354        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-05-31 21:37:04,354        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 51428) закрывается.
+2023-05-31 21:37:04,368        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685558224.3663127, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,369        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685558224.3663127, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,369        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-05-31 21:37:04,369        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 51429) закрывается.
+2023-05-31 21:37:04,396        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685558224.3895755, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,396        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685558224.3895755, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,396        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-05-31 21:37:04,397        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 51430) закрывается.
+2023-05-31 21:37:04,460        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685558224.4590647, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,460        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685558224.4590647, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,460        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-05-31 21:37:04,460        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 51431) закрывается.
+2023-05-31 21:37:04,482        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685558224.4820032, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,482        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685558224.4820032, 'user': {'account_name': 'Sergey'}}
+2023-05-31 21:37:04,483        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-05-31 21:37:04,483        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 51432) закрывается.

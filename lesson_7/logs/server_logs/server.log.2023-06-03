@@ -1,0 +1,57 @@
+2023-06-03 20:31:36,524        INFO         server.py                 Запущен сервер, порт для подключений: 8079, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-03 20:31:36,922        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685813496.9215505, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:36,923        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685813496.9215505, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:36,923        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 20:31:36,923        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 59069) закрывается.
+2023-06-03 20:31:36,924        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685813496.9215505, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:36,924        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685813496.9215505, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:36,924        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 20:31:36,925        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 59070) закрывается.
+2023-06-03 20:31:36,925        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685813496.9235454, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:36,925        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685813496.9235454, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:36,925        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 20:31:36,926        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 59071) закрывается.
+2023-06-03 20:31:36,983        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685813496.9819543, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:36,983        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685813496.9819543, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:36,983        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 20:31:36,984        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 59072) закрывается.
+2023-06-03 20:31:37,084        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685813497.0397997, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:37,084        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685813497.0397997, 'user': {'account_name': 'Sergey'}}
+2023-06-03 20:31:37,084        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 20:31:37,085        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 59073) закрывается.
+2023-06-03 21:23:22,748        INFO         server.py                 Запущен сервер, порт для подключений: 8079, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-06-03 21:23:23,117        DEBUG        decorators.py             Была вызвана функция get_message c параметрами (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61527)>,), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,119        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685816603.0629778, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,119        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685816603.0629778, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,120        DEBUG        decorators.py             Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1685816603.0629778, 'user': {'account_name': 'Sergey'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,120        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 21:23:23,122        DEBUG        decorators.py             Была вызвана функция send_message c параметрами (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61527)>, {'response': 200}), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,122        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 61527) закрывается.
+2023-06-03 21:23:23,123        DEBUG        decorators.py             Была вызвана функция get_message c параметрами (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61528)>,), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,124        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685816603.0889084, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,124        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685816603.0889084, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,125        DEBUG        decorators.py             Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1685816603.0889084, 'user': {'account_name': 'Sergey'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,125        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 21:23:23,127        DEBUG        decorators.py             Была вызвана функция send_message c параметрами (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61528)>, {'response': 200}), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,127        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 61528) закрывается.
+2023-06-03 21:23:23,151        DEBUG        decorators.py             Была вызвана функция get_message c параметрами (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61529)>,), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,151        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685816603.119826, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,152        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685816603.119826, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,153        DEBUG        decorators.py             Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1685816603.119826, 'user': {'account_name': 'Sergey'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,153        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 21:23:23,154        DEBUG        decorators.py             Была вызвана функция send_message c параметрами (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61529)>, {'response': 200}), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,155        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 61529) закрывается.
+2023-06-03 21:23:23,201        DEBUG        decorators.py             Была вызвана функция get_message c параметрами (<socket.socket fd=296, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61530)>,), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,211        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685816603.1617148, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,212        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685816603.1617148, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,213        DEBUG        decorators.py             Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1685816603.1617148, 'user': {'account_name': 'Sergey'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,213        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 21:23:23,214        DEBUG        decorators.py             Была вызвана функция send_message c параметрами (<socket.socket fd=296, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61530)>, {'response': 200}), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,215        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 61530) закрывается.
+2023-06-03 21:23:23,216        DEBUG        decorators.py             Была вызвана функция get_message c параметрами (<socket.socket fd=296, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61531)>,), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,243        DEBUG        server.py                 Получено сообщение: {'action': 'presence', 'time': 1685816603.1617148, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,244        DEBUG        server.py                 Получено сообщение от клиента : {'action': 'presence', 'time': 1685816603.1617148, 'user': {'account_name': 'Sergey'}}
+2023-06-03 21:23:23,245        DEBUG        decorators.py             Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1685816603.1617148, 'user': {'account_name': 'Sergey'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,245        INFO         server.py                 Cформирован ответ клиенту: {'response': 200}
+2023-06-03 21:23:23,247        DEBUG        decorators.py             Была вызвана функция send_message c параметрами (<socket.socket fd=296, family=2, type=1, proto=0, laddr=('127.0.0.1', 8079), raddr=('127.0.0.1', 61531)>, {'response': 200}), {}. Вызов из модуля utils. Вызов из функции main().Вызов из функции main
+2023-06-03 21:23:23,247        DEBUG        server.py                 Соединение с клиентом ('127.0.0.1', 61531) закрывается.
